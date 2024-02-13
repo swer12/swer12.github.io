@@ -1,0 +1,112 @@
+if (CheckUname() == true && CheckFname() == true && CheckLname() == true)
+{
+	form_1_next_btn.addEventListener("click", function () {
+		form_1.style.display = "none";
+		form_2.style.display = "block";
+
+		form_1_btns.style.display = "none";
+		form_2_btns.style.display = "flex";
+
+		form_2_progessbar.classList.add("active");
+	});
+}
+
+	form_2_back_btn.addEventListener("click", function () {
+		form_1.style.display = "block";
+		form_2.style.display = "none";
+
+		form_1_btns.style.display = "flex";
+		form_2_btns.style.display = "none";
+
+		form_2_progessbar.classList.remove("active");
+	});
+
+if (CheckEmail() == true && CheckPhone() == true && CheckPassword() == true && Check_Passwords() == true)
+{
+	form_2_next_btn.addEventListener("click", function () {
+		form_2.style.display = "none";
+		form_3.style.display = "block";
+
+		form_3_btns.style.display = "flex";
+		form_2_btns.style.display = "none";
+
+		form_3_progessbar.classList.add("active");
+	});
+
+}
+
+
+	form_3_back_btn.addEventListener("click", function () {
+		form_2.style.display = "block";
+		form_3.style.display = "none";
+
+		form_3_btns.style.display = "none";
+		form_2_btns.style.display = "flex";
+
+		form_3_progessbar.classList.remove("active");
+	});
+
+if (CheckCity() == true && CheckMikud() == true && CheckBox1() == true)
+{
+	btn_done.addEventListener("click", function () {
+		modal_wrapper.classList.add("active");
+
+		form_3.style.display = "none";
+		form_3_btns.style.display = "none";
+
+		form_4.style.display = "block";
+	})
+
+	shadow.addEventListener("click", function () {
+		modal_wrapper.classList.remove("active");
+	})
+
+}
+
+
+
+
+
+   <%--    
+              <div class="table1">
+        <center>
+            <table>
+                <tr>
+                    <th>
+                      <br />
+                        <a href="Rep_Lost.aspx" target="_self"> דיווח על חיית מחמד שאבדה</a>
+                    </th>
+                    <th>
+                        <br />
+                        <a href="Rep_Found.aspx" target="_self"> דיווח על חיית מחמד שנמצאה</a>
+                    </th>
+                    <th>
+                        <br />
+                        <a href="Msg_Center.aspx" target="_self"> מרכז ההודעות</a>
+                    </th>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+       
+            
+            <h1>no name yet!</h1>
+
+           
+     <div class="Table2">
+        <center>
+            <table>
+                <tr>
+                    <th>
+                        <br />
+                        <a href="Sign_Up.aspx" target="_self">הרשמה</a>
+                    </th>
+                    <th>
+                        <br />
+                        <a href="Log_In.aspx" target="_self">התחברות</a>
+                    </th>
+                </tr>
+            </table>
+        </center>
+    </div>--%>

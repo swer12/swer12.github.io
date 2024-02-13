@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NormalPage.master.cs" Inherits="Yanshufim_Gmar3._0.NormalPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="myStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    
+        <div>
+
+            <div class="master_btns ">
+
+                <div class="table3">
+        <center>
+            <table>
+                <tr>
+                    <th>
+                        <p>דיווח על חיית מחמד אבודה</p><br />
+                        <a href="Rep_Lost.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                    </th>
+                    <th>
+                        <p>דיווח על חיית מחמד שנמצאה</p><br />
+                        <a href="Rep_Lost.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                    </th>
+                    <th>
+                        <p>מרכז הודעות</p><br />
+                        <a href="Rep_Lost.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                    </th>
+                    <th><h1>Find my pet.</h1></th>
+                    <th>
+                        <p>הרשמה</p><br />
+                        <a href="Sign_Up.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                    </th>
+                    <th>
+                        <p>התחברות</p><br />
+                        <a href="Log_In.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                    </th>
+                </tr>
+            </table>
+        </center>
+
+    </div>
+
+                <div class="table3">
+        <center>
+            <table>
+                <tr>
+                    <th>
+                        <p>צפה בחיות המחמד האבודות</p><br />
+                        <a href="Explore_Lost.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                        
+                    </th>
+                    <th>
+                        <p>צפה בחיות המחמד שנמצאו</p><br />
+                        <a href="Explore_Found.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                        
+                    <th>
+                        <p>ערוך את הדיווח שלך</p><br />
+                        <a href="Edit_Report.aspx" target="_self">
+                            <img src="img/click here 333.png" width="200" height="75" />
+                        </a>
+                        
+                    </th>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+            </div>
+                   
+            
+         
+            
+            
+     
+    
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+</body>
+</html>
